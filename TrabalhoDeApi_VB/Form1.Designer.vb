@@ -22,13 +22,28 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.CheckBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.CheckBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.CheckBox1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.CheckBox1.Location = New System.Drawing.Point(46, 66)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(10, 11)
+        Me.CheckBox1.TabIndex = 0
+        Me.CheckBox1.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.BackgroundImage = Global.TrabalhoDeApi_VB.My.Resources.Resources.Sem_título_2
+        Me.ClientSize = New System.Drawing.Size(1000, 600)
+        Me.Controls.Add(Me.CheckBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -36,5 +51,6 @@ Partial Class Form1
         Me.ResumeLayout(False)
 
     End Sub
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 
 End Class
