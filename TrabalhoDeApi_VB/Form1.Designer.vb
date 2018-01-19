@@ -22,35 +22,66 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'CheckBox1
+        'Button1
         '
-        Me.CheckBox1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.CheckBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.CheckBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.CheckBox1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.CheckBox1.Location = New System.Drawing.Point(46, 66)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(10, 11)
-        Me.CheckBox1.TabIndex = 0
-        Me.CheckBox1.UseVisualStyleBackColor = False
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.ForeColor = System.Drawing.Color.Violet
+        Me.Button1.Location = New System.Drawing.Point(58, 108)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(151, 85)
+        Me.Button1.TabIndex = 0
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(52, 201)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(217, 89)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.Visible = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.ic_radio_button_checked_black_24dp_1x
+        Me.PictureBox1.Location = New System.Drawing.Point(52, 307)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(283, 88)
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.UseWaitCursor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.TrabalhoDeApi_VB.My.Resources.Resources.Sem_título_2
+        Me.BackgroundImage = Global.TrabalhoDeApi_VB.My.Resources.Resources.Teste
         Me.ClientSize = New System.Drawing.Size(1000, 600)
-        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 
 End Class
