@@ -1,7 +1,6 @@
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.exe
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.pdb
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.xml
-C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Form1.resources
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Resources.resources
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbproj.GenerateResource.Cache
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.exe
@@ -18,3 +17,8 @@ C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Form4.resources
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Resources.resources
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbproj.GenerateResource.Cache
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.registerForm.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.dashboardForm.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Database1.sdf
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.exe.config
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbprojResolveAssemblyReference.cache
