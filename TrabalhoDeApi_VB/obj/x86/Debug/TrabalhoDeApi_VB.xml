@@ -15,6 +15,10 @@ TrabalhoDeApi_VB
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.botao_login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_radio_button_checked_black_24dp_1x">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -23,11 +27,27 @@ TrabalhoDeApi_VB
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.icon_jogos">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.icon_perguntas">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Sem_título_2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Teste">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Teste1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.user_barra">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
