@@ -22,3 +22,4 @@ C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Trab
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Database1.sdf
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.exe.config
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbprojResolveAssemblyReference.cache
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.loginForm.resources

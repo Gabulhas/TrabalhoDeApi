@@ -27,13 +27,25 @@ Public Class loginForm
 
     End Sub
 
-    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs)
 
         registerForm.Show()
 
     End Sub
 
-    Private Sub Login_Click(sender As System.Object, e As System.EventArgs) Handles Login.Click
+    Private Sub Login_Click(sender As System.Object, e As System.EventArgs)
+        
+    End Sub
+
+    Private Sub loginUserBox_TextChanged(sender As System.Object, e As System.EventArgs) Handles loginUserBox.TextChanged
+
+    End Sub
+
+    Private Sub Label1_Click(sender As System.Object, e As System.EventArgs)
+
+    End Sub
+
+    Private Sub Login_Click_1(sender As System.Object, e As System.EventArgs) Handles Login.Click
         dbUp.Connection = DbCon
         DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Database.mdb"
         DbCon.Open()
@@ -59,9 +71,5 @@ Public Class loginForm
                 loginUserBox.Focus()
             End If
         End With
-    End Sub
-
-    Private Sub loginUserBox_TextChanged(sender As System.Object, e As System.EventArgs) Handles loginUserBox.TextChanged
-
     End Sub
 End Class
