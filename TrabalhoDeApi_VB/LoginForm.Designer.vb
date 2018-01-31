@@ -30,6 +30,7 @@ Partial Class loginForm
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Login = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -103,12 +104,25 @@ Partial Class loginForm
         Me.Login.Text = "Entrar"
         Me.Login.UseVisualStyleBackColor = False
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Button1.Font = New System.Drawing.Font("Roboto", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
+        Me.Button1.Location = New System.Drawing.Point(100, 366)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 24)
+        Me.Button1.TabIndex = 11
+        Me.Button1.Text = "Registar"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'loginForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(350, 440)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Login)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.loginPasswordBox)
@@ -132,4 +146,5 @@ Partial Class loginForm
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Login As System.Windows.Forms.Button
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class

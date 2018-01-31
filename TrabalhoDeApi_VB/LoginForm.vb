@@ -72,4 +72,10 @@ Public Class loginForm
             End If
         End With
     End Sub
+
+    Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+        Me.Hide()
+        registerForm.Show()
+
+    End Sub
 End Class
