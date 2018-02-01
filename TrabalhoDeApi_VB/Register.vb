@@ -17,28 +17,30 @@
 
     Private Sub registButton_Click(sender As System.Object, e As System.EventArgs) Handles registButton.Click
         dbUp.Connection = DbCon
-        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Database.mdb"
+        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Database.mdb"
         DbCon.Open()
         Dim username As String
         Dim password As String
         password = registPasswordBox.Text
         username = registUserBox.Text
-        dbUp.CommandType = CommandType.Text
-        dbUp.CommandText = "Select * from LOGIN where Username=" + username
-        dbUp.Parameters.AddWithValue("@username", username)
-        Read = dbUp.ExecuteReader
-        If Read.HasRows = True Then
-            Read.Read()
-            If Read.Item(0) = 0 Then
-                dbUp.CommandType = CommandType.Text
-                dbUp.CommandText = "INSERT INTO LOGIN([Username], [Password])VALUES(@Username, @Password)"
-                dbUp.Parameters.AddWithValue("@Username", username)
-                dbUp.Parameters.AddWithValue("@Password", password)
-                dbUp.ExecuteNonQuery()
-                DbCon.Close()
-            Else
-                MessageBox.Show("Desculpe, mas este Username não está válido")
-            End If
-        End If
+        Try
+            dbUp.CommandType = CommandType.Text
+            dbUp.CommandText = "INSERT INTO LOGIN([Username], [Password])VALUES(@Username, @Password)"
+            dbUp.Parameters.AddWithValue("@Username", username)
+            dbUp.Parameters.AddWithValue("@Password", password)
+            dbUp.ExecuteNonQuery()
+            DbCon.Close()
+            Me.Hide()
+            loginForm.Show()
+        Catch exception As System.Data.OleDb.OleDbException
+            MessageBox.Show("Já existe uma conta com esse nome")
+
+        End Try
+
+
+    End Sub
+
+    Private Sub Panel1_Paint(sender As System.Object, e As System.Windows.Forms.PaintEventArgs) Handles Panel1.Paint
+
     End Sub
 End Class

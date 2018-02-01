@@ -23,3 +23,17 @@ C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Database
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.exe.config
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbprojResolveAssemblyReference.cache
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.loginForm.resources
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.exe.config
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.exe
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.xml
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.pdb
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Database1.sdf
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.exe
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.pdb
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.xml
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbprojResolveAssemblyReference.cache
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.dashboardForm.resources
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.loginForm.resources
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.registerForm.resources
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Resources.resources
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbproj.GenerateResource.Cache

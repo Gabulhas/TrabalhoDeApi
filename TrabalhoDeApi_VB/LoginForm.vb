@@ -47,7 +47,7 @@ Public Class loginForm
 
     Private Sub Login_Click_1(sender As System.Object, e As System.EventArgs) Handles Login.Click
         dbUp.Connection = DbCon
-        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Database.mdb"
+        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Database.mdb"
         DbCon.Open()
         Dim username As String
         Dim password As String
@@ -64,14 +64,17 @@ Public Class loginForm
             If .Read Then
                 Me.Hide()
                 dashboardForm.Show()
+
             Else
                 loginUserBox.Clear()
                 loginPasswordBox.Clear()
-                MessageBox.Show("Invalid Username or Password")
-                loginUserBox.Focus()
+                MessageBox.Show("Credenciais Erradas.")
             End If
         End With
+
     End Sub
+
+
 
     Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
         Me.Hide()

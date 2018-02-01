@@ -38,40 +38,40 @@ Partial Class loginForm
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Roboto", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(44, 108)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(50, 24)
+        Me.Label2.Size = New System.Drawing.Size(53, 24)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "User"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Roboto", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(42, 178)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(52, 24)
+        Me.Label3.Size = New System.Drawing.Size(54, 24)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Pass"
         '
         'loginPasswordBox
         '
-        Me.loginPasswordBox.Font = New System.Drawing.Font("Roboto", 12.0!)
+        Me.loginPasswordBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.loginPasswordBox.Location = New System.Drawing.Point(160, 175)
         Me.loginPasswordBox.Name = "loginPasswordBox"
         Me.loginPasswordBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.loginPasswordBox.Size = New System.Drawing.Size(100, 27)
+        Me.loginPasswordBox.Size = New System.Drawing.Size(100, 26)
         Me.loginPasswordBox.TabIndex = 7
         '
         'loginUserBox
         '
-        Me.loginUserBox.Font = New System.Drawing.Font("Roboto", 12.0!)
+        Me.loginUserBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.loginUserBox.Location = New System.Drawing.Point(160, 105)
         Me.loginUserBox.Name = "loginUserBox"
-        Me.loginUserBox.Size = New System.Drawing.Size(100, 27)
+        Me.loginUserBox.Size = New System.Drawing.Size(100, 26)
         Me.loginUserBox.TabIndex = 6
         '
         'Panel1
@@ -95,7 +95,7 @@ Partial Class loginForm
         'Login
         '
         Me.Login.BackColor = System.Drawing.Color.Transparent
-        Me.Login.Font = New System.Drawing.Font("Roboto", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Login.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Login.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.Login.Location = New System.Drawing.Point(100, 310)
         Me.Login.Name = "Login"
@@ -107,9 +107,9 @@ Partial Class loginForm
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.Font = New System.Drawing.Font("Roboto", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(100, 366)
+        Me.Button1.Location = New System.Drawing.Point(185, 404)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 24)
         Me.Button1.TabIndex = 11
