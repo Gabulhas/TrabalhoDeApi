@@ -32,6 +32,8 @@
             DbCon.Close()
             Me.Hide()
             loginForm.Show()
+            MessageBox.Show("Conta Criada!")
+
         Catch exception As System.Data.OleDb.OleDbException
             MessageBox.Show("Já existe uma conta com esse nome")
 
