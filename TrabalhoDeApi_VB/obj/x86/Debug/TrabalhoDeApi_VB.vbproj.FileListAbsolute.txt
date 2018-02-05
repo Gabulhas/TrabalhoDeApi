@@ -37,3 +37,4 @@ C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\De
 C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.registerForm.resources
 C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Resources.resources
 C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbproj.GenerateResource.Cache
+C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Form3.resources

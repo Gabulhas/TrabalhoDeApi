@@ -42,7 +42,7 @@ Partial Class dashboardForm
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(136, Byte), Integer), CType(CType(229, Byte), Integer))
         Me.Panel1.Controls.Add(Me.PictureBox4)
-        Me.Panel1.Location = New System.Drawing.Point(-10, 0)
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1025, 85)
         Me.Panel1.TabIndex = 0
@@ -51,7 +51,7 @@ Partial Class dashboardForm
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.InitialImage = CType(resources.GetObject("PictureBox4.InitialImage"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(940, 12)
+        Me.PictureBox4.Location = New System.Drawing.Point(928, 12)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(60, 63)
         Me.PictureBox4.TabIndex = 0
@@ -62,7 +62,7 @@ Partial Class dashboardForm
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(125, 220)
+        Me.Label1.Location = New System.Drawing.Point(128, 217)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(209, 38)
         Me.Label1.TabIndex = 4
@@ -73,7 +73,7 @@ Partial Class dashboardForm
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(12, 425)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(300, 120)
+        Me.PictureBox3.Size = New System.Drawing.Size(353, 120)
         Me.PictureBox3.TabIndex = 3
         Me.PictureBox3.TabStop = False
         '
@@ -82,7 +82,7 @@ Partial Class dashboardForm
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
         Me.PictureBox2.Location = New System.Drawing.Point(12, 300)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(300, 120)
+        Me.PictureBox2.Size = New System.Drawing.Size(353, 120)
         Me.PictureBox2.TabIndex = 2
         Me.PictureBox2.TabStop = False
         '
@@ -91,7 +91,7 @@ Partial Class dashboardForm
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(12, 175)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(300, 120)
+        Me.PictureBox1.Size = New System.Drawing.Size(353, 120)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
@@ -100,7 +100,7 @@ Partial Class dashboardForm
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(125, 345)
+        Me.Label2.Location = New System.Drawing.Point(128, 340)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(137, 38)
         Me.Label2.TabIndex = 5
@@ -111,7 +111,7 @@ Partial Class dashboardForm
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(125, 470)
+        Me.Label3.Location = New System.Drawing.Point(128, 469)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(232, 38)
         Me.Label3.TabIndex = 6
