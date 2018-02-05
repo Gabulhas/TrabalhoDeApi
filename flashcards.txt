@@ -1,0 +1,36 @@
+1"principais causas dos acidentes "
+1"	-velocidade
+	-alcool
+	-fadiga
+	-estado fisico do condutor
+	-manobras perigosas"
+
+2"tempo de reação"
+2"	-em condições normais e de 1s"
+
+3"distancia de reação"
+3"	-desde que o condutor ve o obstaculo ate que começa a travar"
+
+4"distancia de travagem"
+4"	-desde que começa a travar até que o veículo para"
+
+5"distancia de paragem"
+5"	-distancia de reação + distancia de travagem"
+
+6"hierarquia dos sinais"
+6"	-ordens dops agentres reguladores 
+	-sinalização temporaria
+	-sinalização luminosa
+	-sinais verticais
+	-marcas rodoviárias 
+	-regras de transito"
+
+7"condução defensiva"
+7"	-é a atutide tomada pelo condutor de modo a evitar acidentes"
+
+8"ângulos mortos"
+8"	-pontos sem visibilidade cujo condutor não conseguver atraves dos espelhos retrovisores"
+
+9"revelo dos pneus"
+9"	-1,6 mm (ligeiros)
+	-1mm (pesados e motociclos)"
