@@ -21,4 +21,10 @@
     Private Sub Label3_Click(sender As System.Object, e As System.EventArgs) Handles Label3.Click
 
     End Sub
+
+    Private Sub PictureBox3_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox3.Click
+        Me.Hide()
+        Quiz.Show()
+
+    End Sub
 End Class
