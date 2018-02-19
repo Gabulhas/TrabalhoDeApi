@@ -46,6 +46,7 @@ Public Class loginForm
     End Sub
 
     Private Sub Login_Click_1(sender As System.Object, e As System.EventArgs) Handles Login.Click
+        Dim diretorio As String = System.IO.Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath) + "
         dbUp.Connection = DbCon
         DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Database.mdb"
         DbCon.Open()
