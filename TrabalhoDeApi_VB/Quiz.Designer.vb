@@ -74,7 +74,7 @@ Partial Class Quiz
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(195, 45)
         Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Seguinte"
+        Me.Button1.Text = "Nova Pergunta"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Panel1

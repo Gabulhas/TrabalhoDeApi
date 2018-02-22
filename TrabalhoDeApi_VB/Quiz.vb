@@ -16,13 +16,19 @@ Public Class Quiz
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
         dbUp.Connection = DbCon
-        Dim diretorio As String = "C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Quiz.mdb"
+        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Quiz.mdb"
+        DbCon.Open()
         dbUp.CommandType = CommandType.Text
-        dbUp.CommandText = "SELECT top 1 ID from perguntas ORDER BY rnd(ID)"
-        CheckBox1.Text = Read("[resposta1]")
-        CheckBox2.Text = Read("[resposta2]")
-        CheckBox3.Text = Read("[resposta3]")
-        RichTextBox1.Text = Read("[pergunta]")
+        dbUp.CommandText = "SELECT pergunta,resposta1,resposta2,resposta3 FROM Perguntas WHERE rnd(ID)"
+        Read = dbUp.ExecuteReader
+        While Read.Read()
+            CheckBox1.Text = Read("resposta1").ToString
+            CheckBox2.Text = Read("resposta2").ToString
+            CheckBox3.Text = Read("resposta3").ToString
+            RichTextBox1.Text = Read("pergunta").ToString
+        End While
+        DbCon.Close()
+
     End Sub
 
     Private Sub CheckBox1_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles CheckBox1.CheckedChanged
