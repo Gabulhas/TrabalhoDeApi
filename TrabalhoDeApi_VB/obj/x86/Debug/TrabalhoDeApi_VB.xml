@@ -23,6 +23,10 @@ Represents a strongly typed in-memory cache of data.
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_play_circle_filled_black_48dp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_radio_button_checked_black_24dp_1x">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -36,6 +40,10 @@ Represents a strongly typed in-memory cache of data.
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.icon_perguntas">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.info">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
