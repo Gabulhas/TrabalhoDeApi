@@ -34,4 +34,9 @@ Public Class Quiz
     Private Sub CheckBox1_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles CheckBox1.CheckedChanged
 
     End Sub
+
+    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
+        Me.Hide()
+        dashboardForm.Show()
+    End Sub
 End Class

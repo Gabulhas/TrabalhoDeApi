@@ -28,6 +28,9 @@ Partial Class Quiz
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'CheckBox1
@@ -80,10 +83,21 @@ Partial Class Quiz
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(195, Byte), Integer), CType(CType(41, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Location = New System.Drawing.Point(1, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(752, 76)
+        Me.Panel1.Size = New System.Drawing.Size(752, 85)
         Me.Panel1.TabIndex = 6
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.ic_play_circle_filled_black_48dp
+        Me.PictureBox1.Location = New System.Drawing.Point(11, 12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(60, 63)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'Quiz
         '
@@ -100,6 +114,8 @@ Partial Class Quiz
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Quiz"
         Me.Text = "Quiz"
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -110,4 +126,5 @@ Partial Class Quiz
     Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class
