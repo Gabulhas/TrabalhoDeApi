@@ -243,6 +243,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="icons8-car-96.ico" />
+    <None Include="Resources\Repeat_font_awesome.svg.png" />
     <None Include="Resources\info.png" />
     <None Include="Resources\ic_play_circle_filled_black_48dp.png" />
   </ItemGroup>
