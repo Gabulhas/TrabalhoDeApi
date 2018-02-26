@@ -55,6 +55,7 @@ Partial Class flashcards
         '
         'PictureBox1
         '
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.ic_play_circle_filled_black_48dp
         Me.PictureBox1.Location = New System.Drawing.Point(11, 12)
         Me.PictureBox1.Name = "PictureBox1"
@@ -73,6 +74,7 @@ Partial Class flashcards
         Me.TextBox1.Location = New System.Drawing.Point(95, 150)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(345, 200)
         Me.TextBox1.TabIndex = 1
         '
