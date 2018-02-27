@@ -6,23 +6,14 @@ Public Class flashcards
     Dim dbUp As New OleDb.OleDbCommand
     Dim Read As OleDb.OleDbDataReader
     Dim toolTip1 As New ToolTip()
-
+    Dim frente As String
+    Dim verso As String
     Dim control As Control
     Dim caption As String
 
     Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
-        dbUp.Connection = DbCon
-        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\flashcards.mdb"
-        DbCon.Open()
-        dbUp.CommandType = CommandType.Text
-        dbUp.CommandText = "SELECT pergunta,resposta1,resposta2,resposta3 FROM Perguntas WHERE rnd(ID)"
-        Read = dbUp.ExecuteReader
-        Dim frente As String = Read("frente").ToString
-        Dim verso As String = Read("verso").ToString
-
-
-
+ 
     End Sub
     Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
         Me.Hide()
@@ -49,5 +40,26 @@ Public Class flashcards
 
     Private Sub flashcards_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+        TextBox1.Text = verso
+    End Sub
+
+    Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
+        dbUp.Connection = DbCon
+        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Flashcards.mdb"
+        DbCon.Open()
+        dbUp.CommandType = CommandType.Text
+        dbUp.CommandText = "SELECT TOP 1 frente,verso FROM(flashcards) ORDER BY RND(-Timer()*[ID]);"
+        Read = dbUp.ExecuteReader
+        TextBox1.Text = ""
+        While Read.Read()
+            frente = Read("frente").ToString()
+            verso = Read("verso").ToString
+            TextBox1.Text = frente
+        End While
+
+        DbCon.Close()
     End Sub
 End Class

@@ -84,9 +84,9 @@ Partial Class Quiz
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(124, Byte), Integer), CType(CType(195, Byte), Integer), CType(CType(41, Byte), Integer))
         Me.Panel1.Controls.Add(Me.PictureBox1)
-        Me.Panel1.Location = New System.Drawing.Point(1, 0)
+        Me.Panel1.Location = New System.Drawing.Point(-1, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(752, 85)
+        Me.Panel1.Size = New System.Drawing.Size(754, 85)
         Me.Panel1.TabIndex = 6
         '
         'PictureBox1

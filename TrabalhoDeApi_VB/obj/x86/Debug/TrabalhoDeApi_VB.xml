@@ -47,6 +47,10 @@ Represents a strongly typed in-memory cache of data.
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Repeat_font_awesome_svg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Sem_título_2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
