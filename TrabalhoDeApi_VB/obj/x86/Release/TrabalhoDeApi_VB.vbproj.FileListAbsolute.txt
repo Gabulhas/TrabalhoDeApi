@@ -1,0 +1,21 @@
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Release\Database1.sdf
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\TrabalhoDeApi_VB.flashcards.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\TrabalhoDeApi_VB.dashboardForm.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\TrabalhoDeApi_VB.Form3.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\TrabalhoDeApi_VB.loginForm.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\TrabalhoDeApi_VB.Quiz.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\TrabalhoDeApi_VB.registerForm.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\TrabalhoDeApi_VB.Resources.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\TrabalhoDeApi_VB.vbproj.GenerateResource.Cache
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Release\Carta De Condução.exe.config
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Release\Carta De Condução.exe.manifest
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Release\Carta De Condução.application
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Release\Carta De Condução.exe
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Release\Carta De Condução.pdb
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Release\Carta De Condução.xml
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\Carta De Condução.exe.manifest
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\Carta De Condução.application
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\Carta De Condução.exe
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\Carta De Condução.xml
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\Carta De Condução.pdb
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Release\Carta De Condução.TrustInfo.xml

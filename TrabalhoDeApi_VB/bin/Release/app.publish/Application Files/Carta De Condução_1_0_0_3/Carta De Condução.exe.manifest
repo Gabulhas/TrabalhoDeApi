@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Carta De Condução.exe" version="1.0.0.3" publicKeyToken="38d3a6f9b0f8e73d" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="icons8-car-96.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Carta De Condução" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Carta De Condução.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.SqlServerCe" version="3.5.1.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Carta De Condução.exe" size="369664">
+      <assemblyIdentity name="Carta De Condução" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>++UUHaj0sNa4/IlT9zHTxY5cYbQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Carta De Condução.exe.config" size="1630">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HBYXLie2eAfQrkva1ThIb4Hf33g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database1.sdf" size="28672" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>k+PzRyxbcZFXsCGZu9aniHZO1Ak=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons8-car-96.ico" size="106294">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1j8hJLSKksppCFODYDT2KOdGdYU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-8O2OAVT\BreiaLopes" issuerKeyHash="6411f7d3131210c780e9e587ea2adab4435c2910" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>t4rBYJ1OhQtfeLtRV6Sjf9Nolnw=</DigestValue></Reference></SignedInfo><SignatureValue>fnA3zMjRa1zMQzNEhO6OlB2FWkhUSywmvhTRoQLSyt1R55wjEHXq+plj12Czx3rFmC3YGjl35jJi83dj2LvYKeagOuvL+RwE0zzDuCNA/LiLw+zqIeNX72124ve9jYMrqFoHT85tR0rXwxaCZzFZly1TUJ7YEn4vsRQKTYG1e6M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4FmZM/5MgScpX+McFDWjg+6QTvuo6vN1ljDZm42hYZb3FFhSG2fWelS2JiRV3Nl2IOrvxivez0+eALGCeXEc4txs2RO8Y4xwghmE8gj/b9DsjqdkITOlQQDMoHbfy8pxkpcyWwcYBxPmVnbdqH6YsFdUwbSxbyXM3UtVMKE4x+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7c9668d37fa3a45751bb785f0b854e9d60c18ab7" Description="" Url=""><as:assemblyIdentity name="Carta De Condução.exe" version="1.0.0.3" publicKeyToken="38d3a6f9b0f8e73d" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-8O2OAVT\BreiaLopes</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5sDYZKNBxj0WZENn2W0K/jhSspc=</DigestValue></Reference></SignedInfo><SignatureValue>Fzd5o/zqIJiqYMhtIhHbl9urv8aSFGh7vC5SECe2vJKtiZNAR8suYuyn2SJfqlWL3Jq4hrid6YLu6s9A5UiOcu43ZIk3kDQL95ky3bceekkTMvZVOOzJj9OevfKOxhrp3jgI7mNwtPqeuUqVvKpyl4qVh0qYY0U1EkkyfrJOW7g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4FmZM/5MgScpX+McFDWjg+6QTvuo6vN1ljDZm42hYZb3FFhSG2fWelS2JiRV3Nl2IOrvxivez0+eALGCeXEc4txs2RO8Y4xwghmE8gj/b9DsjqdkITOlQQDMoHbfy8pxkpcyWwcYBxPmVnbdqH6YsFdUwbSxbyXM3UtVMKE4x+0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQG6JYe1zgx7xIEY2F3Q3PRjANBgkqhkiG9w0BAQUFADA/MT0wOwYDVQQDHjQARABFAFMASwBUAE8AUAAtADgATwAyAE8AQQBWAFQAXABCAHIAZQBpAGEATABvAHAAZQBzMB4XDTE4MDIyODE2MDQ1N1oXDTE5MDIyODIyMDQ1N1owPzE9MDsGA1UEAx40AEQARQBTAEsAVABPAFAALQA4AE8AMgBPAEEAVgBUAFwAQgByAGUAaQBhAEwAbwBwAGUAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4FmZM/5MgScpX+McFDWjg+6QTvuo6vN1ljDZm42hYZb3FFhSG2fWelS2JiRV3Nl2IOrvxivez0+eALGCeXEc4txs2RO8Y4xwghmE8gj/b9DsjqdkITOlQQDMoHbfy8pxkpcyWwcYBxPmVnbdqH6YsFdUwbSxbyXM3UtVMKE4x+0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQCXcQ2oTsWoRBVMZdampc7rlcBs7KqaIOFTMPVyWbzGgQ7z4fYwkWBcGu/RkSE9HZAZn2Awi41JU+1H7wXTTWJO0MHTajD+mJFEk+HTmLXsXHs/GT1s5CnmKm49VZ+1FxfWkgYCLQ71qWzWtWGMQ3Hj0oo2We6fpBEcJjzdeX+UkA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

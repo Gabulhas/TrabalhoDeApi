@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CartaDeCondução
+</name>
+</assembly>
+<members>
+<member name="T:TrabalhoDeApi_VB.BaseDeDados">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.botao_login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_play_circle_filled_black_48dp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_radio_button_checked_black_24dp_1x">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_radio_button_unchecked_black_24dp_1x">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.icon_jogos">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.icon_perguntas">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.info">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Repeat_font_awesome_svg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Sem_título_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Teste">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Teste1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.user_barra">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:TrabalhoDeApi_VB.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

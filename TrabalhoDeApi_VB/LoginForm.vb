@@ -1,8 +1,10 @@
 ﻿Imports System.Data.OleDb
 Imports System.Data
-
+Imports System
+Imports System.IO
 
 Public Class loginForm
+    Dim diretorio As String = Directory.GetCurrentDirectory()
     Dim DbCon As New OleDb.OleDbConnection
     Dim dbUp As New OleDb.OleDbCommand
     Dim Read As OleDb.OleDbDataReader
@@ -34,7 +36,7 @@ Public Class loginForm
     End Sub
 
     Private Sub Login_Click(sender As System.Object, e As System.EventArgs)
-        
+
     End Sub
 
     Private Sub loginUserBox_TextChanged(sender As System.Object, e As System.EventArgs) Handles loginUserBox.TextChanged
@@ -46,9 +48,9 @@ Public Class loginForm
     End Sub
 
     Private Sub Login_Click_1(sender As System.Object, e As System.EventArgs) Handles Login.Click
-        Dim diretorio As String = System.IO.Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath) + "
+        Dim diretorio As String = System.IO.Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath) + ""
         dbUp.Connection = DbCon
-        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Database.mdb"
+        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + diretorio + "\Database.mdb"
         DbCon.Open()
         Dim username As String
         Dim password As String

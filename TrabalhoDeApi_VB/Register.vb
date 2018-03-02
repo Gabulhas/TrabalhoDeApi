@@ -5,7 +5,7 @@ Public Class registerForm
     Dim DbCon As New OleDb.OleDbConnection
     Dim dbUp As New OleDb.OleDbCommand
     Dim Read As OleDb.OleDbDataReader
-    Dim Caminho As String = Directory.GetCurrentDirectory()
+    Dim diretorio As String = Directory.GetCurrentDirectory()
 
 
 
@@ -22,8 +22,7 @@ Public Class registerForm
 
     Private Sub registButton_Click(sender As System.Object, e As System.EventArgs) Handles registButton.Click
         dbUp.Connection = DbCon
-        Dim diretorio As String = "C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Database.mdb"
-        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + diretorio + ""
+        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + diretorio + "\Database.mdb"
         DbCon.Open()
         Dim username As String
         Dim password As String

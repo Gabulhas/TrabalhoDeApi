@@ -1,7 +1,9 @@
 ﻿Imports System.Data.OleDb
 Imports System.Data
+Imports System.IO
 
 Public Class flashcards
+    Dim diretorio As String = Directory.GetCurrentDirectory()
     Dim DbCon As New OleDb.OleDbConnection
     Dim dbUp As New OleDb.OleDbCommand
     Dim Read As OleDb.OleDbDataReader
@@ -13,7 +15,7 @@ Public Class flashcards
 
     Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
- 
+
     End Sub
     Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
         Me.Hide()
@@ -48,7 +50,7 @@ Public Class flashcards
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
         dbUp.Connection = DbCon
-        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Flashcards.mdb"
+        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + diretorio + "\Flashcards.mdb"
         DbCon.Open()
         dbUp.CommandType = CommandType.Text
         dbUp.CommandText = "SELECT TOP 1 frente,verso FROM(flashcards) ORDER BY RND(-Timer()*[ID]);"
