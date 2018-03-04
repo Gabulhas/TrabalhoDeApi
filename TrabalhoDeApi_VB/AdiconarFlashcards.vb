@@ -12,13 +12,13 @@ Public Class AdiconarFlashcards
         Dim frente As String
         Dim verso As String
         frente = RichTextBox1.Text
-        verso = RichTextBox1.Text
+        verso = RichTextBox2.Text
         dbUp.CommandType = CommandType.Text
         dbUp.CommandText = "INSERT INTO Flashcards([frente], [verso])VALUES(@frente, @verso)"
         dbUp.Parameters.AddWithValue("@frente", frente)
         dbUp.Parameters.AddWithValue("@verso", verso)
         dbUp.ExecuteNonQuery()
         DbCon.Close()
-        Me.Hide()
+
     End Sub
 End Class

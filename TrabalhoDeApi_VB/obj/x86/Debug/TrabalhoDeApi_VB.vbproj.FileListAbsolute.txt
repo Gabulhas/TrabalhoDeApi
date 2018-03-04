@@ -63,3 +63,13 @@ C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.exe.manifest
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.application
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Form1.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbproj.ResolveComReference.cache
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Interop.WMPLib.dll
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.animações.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.exemplo_1.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Exemplo_2.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.flashcards_ou_animações.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Form1.resources

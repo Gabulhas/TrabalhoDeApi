@@ -25,6 +25,8 @@ Partial Class AdiconarFlashcards
         Me.Button1 = New System.Windows.Forms.Button()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -38,7 +40,7 @@ Partial Class AdiconarFlashcards
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(42, 54)
+        Me.RichTextBox1.Location = New System.Drawing.Point(42, 68)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(350, 90)
         Me.RichTextBox1.TabIndex = 1
@@ -46,17 +48,37 @@ Partial Class AdiconarFlashcards
         '
         'RichTextBox2
         '
-        Me.RichTextBox2.Location = New System.Drawing.Point(42, 168)
+        Me.RichTextBox2.Location = New System.Drawing.Point(42, 248)
         Me.RichTextBox2.Name = "RichTextBox2"
         Me.RichTextBox2.Size = New System.Drawing.Size(350, 90)
         Me.RichTextBox2.TabIndex = 2
         Me.RichTextBox2.Text = ""
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(42, 29)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(37, 13)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Frente"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(42, 218)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(34, 13)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Verso"
+        '
         'AdiconarFlashcards
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(684, 311)
+        Me.ClientSize = New System.Drawing.Size(700, 350)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.RichTextBox2)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Button1)
@@ -64,9 +86,12 @@ Partial Class AdiconarFlashcards
         Me.Name = "AdiconarFlashcards"
         Me.Text = "AdiconarFlashcards"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
     Friend WithEvents RichTextBox2 As System.Windows.Forms.RichTextBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class

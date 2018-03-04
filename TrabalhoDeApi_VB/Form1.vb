@@ -25,14 +25,14 @@
     Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
 
         Me.Hide()
-        flashcards.Show()
+        flashcards_ou_animações.Show()
 
     End Sub
 
     Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
 
         Me.Hide()
-        Form3.Show()
+        Form1.Show()
 
     End Sub
 
