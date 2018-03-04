@@ -117,10 +117,34 @@
     <Compile Include="AdiconarFlashcards.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="animações.Designer.vb">
+      <DependentUpon>animações.vb</DependentUpon>
+    </Compile>
+    <Compile Include="animações.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BaseDeDados.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BaseDeDados.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="exemplo 1.Designer.vb">
+      <DependentUpon>exemplo 1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="exemplo 1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exemplo 2.Designer.vb">
+      <DependentUpon>Exemplo 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Exemplo 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="flashcards ou animações.Designer.vb">
+      <DependentUpon>flashcards ou animações.vb</DependentUpon>
+    </Compile>
+    <Compile Include="flashcards ou animações.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="flashcards.Designer.vb">
       <DependentUpon>flashcards.vb</DependentUpon>
@@ -145,6 +169,12 @@
       <DependentUpon>Form4.vb</DependentUpon>
     </Compile>
     <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jogo.designer.vb">
+      <DependentUpon>jogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="jogo.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginForm.Designer.vb">
@@ -185,6 +215,18 @@
     <EmbeddedResource Include="AdiconarFlashcards.resx">
       <DependentUpon>AdiconarFlashcards.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="animações.resx">
+      <DependentUpon>animações.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exemplo 1.resx">
+      <DependentUpon>exemplo 1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exemplo 2.resx">
+      <DependentUpon>Exemplo 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flashcards ou animações.resx">
+      <DependentUpon>flashcards ou animações.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="flashcards.resx">
       <DependentUpon>flashcards.vb</DependentUpon>
     </EmbeddedResource>
@@ -196,6 +238,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jogo.resx">
+      <DependentUpon>jogo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.vb</DependentUpon>
@@ -279,6 +324,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="icons8-car-96.ico" />
+    <None Include="Resources\rotunda print.png" />
+    <None Include="Resources\prependicularprint.png" />
+    <None Include="Resources\Stop1.png" />
+    <None Include="Resources\Again1.png" />
+    <None Include="Resources\ic_local_gas_station_black_48dp.png" />
+    <None Include="Resources\carrov2.png2.png" />
+    <None Include="Resources\carrov2.png1.png" />
+    <None Include="Resources\carroamarelo12.png" />
+    <None Include="Resources\carroamarelo11.png" />
+    <None Include="Resources\carrov2.png.png" />
+    <None Include="Resources\carroamarelo1.png" />
     <None Include="Resources\Repeat_font_awesome.svg.png" />
     <None Include="Resources\info.png" />
     <None Include="Resources\ic_play_circle_filled_black_48dp.png" />
@@ -312,6 +368,25 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\Fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

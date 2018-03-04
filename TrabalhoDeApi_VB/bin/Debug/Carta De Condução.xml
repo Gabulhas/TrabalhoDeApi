@@ -19,7 +19,39 @@ Represents a strongly typed in-memory cache of data.
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Again1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.botao_login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carroamarelo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carroamarelo11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carroamarelo12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carrov2_png">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carrov21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carrov22">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -52,6 +84,10 @@ Represents a strongly typed in-memory cache of data.
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Sem_título_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Stop1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

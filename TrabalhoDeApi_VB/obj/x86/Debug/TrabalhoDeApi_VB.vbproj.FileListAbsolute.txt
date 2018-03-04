@@ -1,11 +1,5 @@
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Resources.resources
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbproj.GenerateResource.Cache
-C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.exe
-C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.xml
-C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.pdb
-C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.exe
-C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.pdb
-C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.xml
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Form3.resources
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Resources.resources
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbproj.GenerateResource.Cache
@@ -30,7 +24,6 @@ C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\De
 C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbproj.GenerateResource.Cache
 C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Form3.resources
 C:\Users\Aluno.PC.006\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Quiz.resources
-C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\TrabalhoDeApi_VB.exe.config
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Database1.sdf
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.vbprojResolveAssemblyReference.cache
 C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.dashboardForm.resources
@@ -55,3 +48,18 @@ C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Cart
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.TrustInfo.xml
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Definições.resources
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.AdiconarFlashcards.resources
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Carta De Condução.exe.config
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.exe
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.xml
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.pdb
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Carta De Condução.exe.manifest
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Carta De Condução.application
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Carta De Condução.exe
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Carta De Condução.pdb
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\bin\Debug\Carta De Condução.xml
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.AdiconarFlashcards.resources
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Definições.resources
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.TrustInfo.xml
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.exe.manifest
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.application
+C:\Users\kokas\OneDrive\Documentos\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Form1.resources

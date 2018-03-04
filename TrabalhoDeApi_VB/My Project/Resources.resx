@@ -118,32 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ic_radio_button_checked_black_24dp_1x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_radio_button_checked_black_24dp_1x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_local_gas_station_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_local_gas_station_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sem título-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sem título-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Teste" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Teste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user barra" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user barra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="botao login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botao login.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon jogos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon jogos.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ic_play_circle_filled_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_play_circle_filled_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prependicularprint1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prependicularprint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Teste1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Teste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon perguntas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon perguntas.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="carroamarelo12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carroamarelo12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carroamarelo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carroamarelo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Again1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Again1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Repeat_font_awesome.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Repeat_font_awesome.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_radio_button_unchecked_black_24dp_1x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_radio_button_unchecked_black_24dp_1x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,7 +145,49 @@
   <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Repeat_font_awesome.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Repeat_font_awesome.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon perguntas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon perguntas.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stop1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stop1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrov2.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrov2.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Teste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Teste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prependicularprint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prependicularprint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrov21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrov2.png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sem título-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sem título-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrov22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrov2.png2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon jogos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon jogos.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_radio_button_checked_black_24dp_1x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_radio_button_checked_black_24dp_1x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user barra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user barra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao login.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carroamarelo11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carroamarelo11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_play_circle_filled_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_play_circle_filled_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rotunda print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rotunda print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
