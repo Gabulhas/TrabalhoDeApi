@@ -35,4 +35,8 @@
         Form3.Show()
 
     End Sub
+
+    Private Sub PictureBox4_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox4.Click
+        Definições.Show()
+    End Sub
 End Class

@@ -25,13 +25,7 @@ Public Class flashcards
 
     Private Sub Ajuda_Popup(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PopupEventArgs) Handles Ajuda.Popup
 
-        toolTip1.AutoPopDelay = 5000
-        toolTip1.InitialDelay = 1000
-        toolTip1.ReshowDelay = 500
-        toolTip1.ShowAlways = True
-
-
-
+        
 
     End Sub
 

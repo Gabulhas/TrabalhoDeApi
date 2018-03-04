@@ -52,3 +52,6 @@ C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Cart
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.exe
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.xml
 C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.pdb
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\Carta De Condução.TrustInfo.xml
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.Definições.resources
+C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\obj\x86\Debug\TrabalhoDeApi_VB.AdiconarFlashcards.resources

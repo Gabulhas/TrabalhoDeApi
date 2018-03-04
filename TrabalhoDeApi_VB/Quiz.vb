@@ -9,17 +9,10 @@ Public Class Quiz
     Dim DbCon As New OleDb.OleDbConnection
     Dim dbUp As New OleDb.OleDbCommand
     Dim Read As OleDb.OleDbDataReader
-    Private Sub RichTextBox1_TextChanged(sender As System.Object, e As System.EventArgs) Handles RichTextBox1.TextChanged
-
-    End Sub
-
-    Private Sub Quiz_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
-
-    End Sub
-
-    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+    
+    Sub Quiz()
         dbUp.Connection = DbCon
-        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + diretorio + "\Quiz.mdb"
+        DbCon.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Asus\Documents\GitHub\TrabalhoDeApi\TrabalhoDeApi_VB\Quiz.mdb"
         DbCon.Open()
         dbUp.CommandType = CommandType.Text
         dbUp.CommandText = "SELECT pergunta,resposta1,resposta2,resposta3,respostaCerta FROM Perguntas ORDER BY RND(-Timer()*[ID]);"
@@ -35,9 +28,19 @@ Public Class Quiz
             RespostaCerta = Read("respostaCerta").ToString
         End While
         DbCon.Close()
+    End Sub
+    Private Sub RichTextBox1_TextChanged(sender As System.Object, e As System.EventArgs) Handles RichTextBox1.TextChanged
 
+    End Sub
+
+    Private Sub Quiz_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+        Quiz()
         
-
+        
     End Sub
 
     Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
@@ -52,7 +55,7 @@ Public Class Quiz
     End Sub
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
-        TextBox1.Text = diretorio
+
         If RadioButton1.Checked Then respostaEscolhida = RadioButton1.Text
 
         If RadioButton2.Checked Then respostaEscolhida = RadioButton2.Text
@@ -60,7 +63,9 @@ Public Class Quiz
         If RadioButton3.Checked Then respostaEscolhida = RadioButton3.Text
 
         If respostaEscolhida = RespostaCerta Then
-            MessageBox.Show("batata")
+            MessageBox.Show("Certo!")
+            Quiz()
+
         ElseIf respostaEscolhida <> RespostaCerta Then
             MessageBox.Show("Erro")
         End If
