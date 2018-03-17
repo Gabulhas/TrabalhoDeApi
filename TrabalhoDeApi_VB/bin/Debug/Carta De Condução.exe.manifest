@@ -60,14 +60,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Carta De Condução.exe" size="812544">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Carta De Condução.exe" size="815616">
       <assemblyIdentity name="Carta De Condução" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>kNEecwFKfRdV1kPp5vK8vsk9jdU=</dsig:DigestValue>
+        <dsig:DigestValue>3hbcAn4atLCzD5gqIfp9WYwL8Dk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

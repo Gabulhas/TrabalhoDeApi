@@ -2,8 +2,8 @@
     Dim road(9) As PictureBox
     Dim s As Integer
     Dim Start As Integer = 5
-    Dim Move As Boolean = False
     Dim vidas As Integer
+    Dim Move As Boolean = False
     Dim Carros(2) As PictureBox
     Dim vida(3) As PictureBox
     Dim TimerStartE As Boolean
@@ -144,7 +144,7 @@
 
     Private Sub PictureBox19_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox19.Click
         For y = 0 To 3
-            Carros(y).Top = -Int(Rnd() * 500)
+            Carros(y).Top = -Int(Rnd())
         Next
         vida(1).Show()
         vida(2).Show()
@@ -183,6 +183,10 @@
     End Sub
 
     Private Sub PictureBox17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox17.Click
+
+    End Sub
+
+    Private Sub PictureBox12_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox12.Click
 
     End Sub
 End Class

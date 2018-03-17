@@ -15,4 +15,12 @@
         TextBox1.Clear()
         TextBox1.Text = "Se ambos os carros tiverem a intenção de virar para baixo, o carro A tem prioridade sob o carro B"
     End Sub
+
+    Private Sub TextBox1_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox1.TextChanged
+
+    End Sub
+
+    Private Sub AxWindowsMediaPlayer1_Enter(sender As System.Object, e As System.EventArgs) Handles AxWindowsMediaPlayer1.Enter
+
+    End Sub
 End Class
