@@ -33,6 +33,7 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Timer_Cars = New System.Windows.Forms.Timer(Me.components)
+        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
         Me.PictureBox19 = New System.Windows.Forms.PictureBox()
         Me.PictureBox18 = New System.Windows.Forms.PictureBox()
         Me.PictureBox17 = New System.Windows.Forms.PictureBox()
@@ -52,6 +53,7 @@ Partial Class Form1
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -141,12 +143,23 @@ Partial Class Form1
         '
         Me.Timer_Cars.Interval = 30
         '
+        'PictureBox20
+        '
+        Me.PictureBox20.BackColor = System.Drawing.Color.White
+        Me.PictureBox20.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.casa
+        Me.PictureBox20.Location = New System.Drawing.Point(749, 135)
+        Me.PictureBox20.Name = "PictureBox20"
+        Me.PictureBox20.Size = New System.Drawing.Size(69, 72)
+        Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox20.TabIndex = 10
+        Me.PictureBox20.TabStop = False
+        '
         'PictureBox19
         '
         Me.PictureBox19.BackColor = System.Drawing.Color.White
         Me.PictureBox19.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox19.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.Again1
-        Me.PictureBox19.Location = New System.Drawing.Point(712, 131)
+        Me.PictureBox19.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.Again11
+        Me.PictureBox19.Location = New System.Drawing.Point(656, 135)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(74, 72)
         Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -155,30 +168,30 @@ Partial Class Form1
         '
         'PictureBox18
         '
-        Me.PictureBox18.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.carrov22
+        Me.PictureBox18.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.carrov24
         Me.PictureBox18.Location = New System.Drawing.Point(463, 12)
         Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(90, 142)
+        Me.PictureBox18.Size = New System.Drawing.Size(87, 131)
         Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox18.TabIndex = 8
         Me.PictureBox18.TabStop = False
         '
         'PictureBox17
         '
-        Me.PictureBox17.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.carrov21
-        Me.PictureBox17.Location = New System.Drawing.Point(239, 12)
+        Me.PictureBox17.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.carrov23
+        Me.PictureBox17.Location = New System.Drawing.Point(239, 13)
         Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(90, 142)
+        Me.PictureBox17.Size = New System.Drawing.Size(87, 131)
         Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox17.TabIndex = 8
         Me.PictureBox17.TabStop = False
         '
         'PictureBox16
         '
-        Me.PictureBox16.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.carrov2_png
+        Me.PictureBox16.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.carrov2_png2
         Me.PictureBox16.Location = New System.Drawing.Point(43, 12)
         Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(90, 142)
+        Me.PictureBox16.Size = New System.Drawing.Size(87, 131)
         Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox16.TabIndex = 8
         Me.PictureBox16.TabStop = False
@@ -186,7 +199,7 @@ Partial Class Form1
         'PictureBox15
         '
         Me.PictureBox15.BackColor = System.Drawing.Color.White
-        Me.PictureBox15.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp
+        Me.PictureBox15.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp3
         Me.PictureBox15.Location = New System.Drawing.Point(785, 13)
         Me.PictureBox15.Name = "PictureBox15"
         Me.PictureBox15.Size = New System.Drawing.Size(67, 57)
@@ -197,7 +210,7 @@ Partial Class Form1
         'PictureBox14
         '
         Me.PictureBox14.BackColor = System.Drawing.Color.White
-        Me.PictureBox14.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp
+        Me.PictureBox14.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp2
         Me.PictureBox14.Location = New System.Drawing.Point(712, 13)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(67, 57)
@@ -208,7 +221,7 @@ Partial Class Form1
         'PictureBox13
         '
         Me.PictureBox13.BackColor = System.Drawing.Color.White
-        Me.PictureBox13.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp
+        Me.PictureBox13.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp1
         Me.PictureBox13.Location = New System.Drawing.Point(639, 13)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(67, 57)
@@ -227,11 +240,11 @@ Partial Class Form1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.carroamarelo12
-        Me.PictureBox1.Location = New System.Drawing.Point(239, 377)
+        Me.PictureBox1.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.carroamarelo121
+        Me.PictureBox1.Location = New System.Drawing.Point(253, 358)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(90, 142)
+        Me.PictureBox1.Size = New System.Drawing.Size(73, 134)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -342,6 +355,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DimGray
         Me.ClientSize = New System.Drawing.Size(856, 536)
+        Me.Controls.Add(Me.PictureBox20)
         Me.Controls.Add(Me.PictureBox19)
         Me.Controls.Add(Me.PictureBox18)
         Me.Controls.Add(Me.PictureBox17)
@@ -371,6 +385,7 @@ Partial Class Form1
         Me.MinimizeBox = False
         Me.Name = "Form1"
         Me.Text = "Car Race"
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
@@ -423,5 +438,6 @@ Partial Class Form1
     Friend WithEvents PictureBox17 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox18 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox19 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox20 As System.Windows.Forms.PictureBox
 
 End Class

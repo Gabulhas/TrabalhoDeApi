@@ -2,10 +2,10 @@
     Dim road(9) As PictureBox
     Dim s As Integer
     Dim Start As Integer = 5
-    Dim vidas As Integer
     Dim Move As Boolean = False
-    Dim Carros(2) As PictureBox
-    Dim vida(3) As PictureBox
+    Dim Health As Integer
+    Dim Cars(2) As PictureBox
+    Dim h(2) As PictureBox
     Dim TimerStartE As Boolean
     Dim GameOver As Boolean = False
 
@@ -33,7 +33,8 @@
     End Sub
 
     Private Sub Form1_KeyUp(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles MyBase.KeyUp
-       
+        TimerMoveLeft.Stop()
+        TimerMoveRight.Stop()
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
@@ -58,16 +59,16 @@
         road(8) = PictureBox10
         road(9) = PictureBox11
 
-        Carros(0) = PictureBox16
-        Carros(1) = PictureBox17
-        Carros(2) = PictureBox18
+        Cars(0) = PictureBox16
+        Cars(1) = PictureBox17
+        Cars(2) = PictureBox18
 
-        vida(1) = PictureBox13
-        vida(2) = PictureBox14
-        vida(3) = PictureBox15
+        h(0) = PictureBox13
+        h(1) = PictureBox14
+        h(2) = PictureBox15
 
         For y = 0 To 2
-            Carros(y).Top = -Int(Rnd() * 500)
+            Cars(y).Top = -Int(Rnd() * 500)
         Next
         GameOver = False
     End Sub
@@ -98,16 +99,16 @@
 
     Private Sub Timer_Cars_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer_Cars.Tick
         For y = 0 To 2
-            Carros(y).Top += 15
+            Cars(y).Top += 15
 
-            If Carros(y).Top > Me.Height Then
-                Carros(y).Top = -Int(Rnd() * 500)
+            If Cars(y).Top > Me.Height Then
+                Cars(y).Top = -Int(Rnd() * 500)
             End If
-            If PictureBox1.Bounds.IntersectsWith(Carros(y).Bounds) Then
-                vidas += 1
-                Carros(y).Top = -Int(Rnd() * 500)
-                vida(vidas - 1).Hide()
-                If vidas = 3 Then
+            If PictureBox1.Bounds.IntersectsWith(Cars(y).Bounds) Then
+                Health += 1
+                Cars(y).Top = -Int(Rnd() * 500)
+                h(Health - 1).Hide()
+                If Health = 3 Then
                     Timer_Cars.Stop()
                     Timer_Time.Stop()
                     TimerMoveLeft.Stop()
@@ -116,13 +117,13 @@
                     Move = False
                     Label3.Text += Val(s)
                     s = 0
-                    vidas = 0
-                    MsgBox("Game over")
+                    Health = 0
+                    MsgBox("Fim do jogo")
                     GameOver = True
 
                 End If
             End If
-            If vidas = 3 Then
+            If Health = 3 Then
                 Timer_Cars.Stop()
                 Timer_Time.Stop()
                 TimerMoveLeft.Stop()
@@ -134,7 +135,7 @@
 
                 MsgBox(s)
                 s = 0
-                vidas = 0
+                Health = 0
                 GameOver = True
 
             End If
@@ -143,12 +144,12 @@
     End Sub
 
     Private Sub PictureBox19_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox19.Click
-        For y = 0 To 3
-            Carros(y).Top = -Int(Rnd())
+        For y = 0 To 2
+            Cars(y).Top = -Int(Rnd() * 500)
         Next
-        vida(1).Show()
-        vida(2).Show()
-        vida(3).Show()
+        h(0).Show()
+        h(1).Show()
+        h(2).Show()
 
         TimerStartE = True
         Timer_Start.Start()
@@ -164,29 +165,17 @@
         TimerStartE = False
         GameOver = False
     End Sub
-    
-
-    Private Sub PictureBox21_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        If GameOver = False Then
-            If TimerStartE = False Then
-                TimerStartE = True
-                Label2.Visible = True
-                Start = 3
-                Label2.Text = 3
-                Timer_Start.Start()
-                TimerStartE = True
-
-            End If
-        End If
-
-
+    Private Sub PictureBox20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        Timer_Time.Stop()
+        Timer1.Stop()
+        Timer_Cars.Stop()
+        Move = False
     End Sub
 
-    Private Sub PictureBox17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox17.Click
+    Private Sub PictureBox20_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox20.Click
 
-    End Sub
-
-    Private Sub PictureBox12_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox12.Click
+        Me.Hide()
+        dashboardForm.Show()
 
     End Sub
 End Class

@@ -23,6 +23,10 @@ Represents a strongly typed in-memory cache of data.
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Again11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.botao_login">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -39,7 +43,15 @@ Represents a strongly typed in-memory cache of data.
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carroamarelo121">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carrov2_png">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carrov2_png2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -51,7 +63,27 @@ Represents a strongly typed in-memory cache of data.
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carrov23">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carrov24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.ic_local_gas_station_black_48dp3">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
