@@ -73,9 +73,9 @@ Partial Class flashcards
         '
         'TextBox1
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(95, 150)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
@@ -86,19 +86,21 @@ Partial Class flashcards
         '
         'Button1
         '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
         Me.Button1.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.Repeat_font_awesome_svg
-        Me.Button1.Location = New System.Drawing.Point(469, 268)
+        Me.Button1.Location = New System.Drawing.Point(487, 311)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(100, 82)
+        Me.Button1.Size = New System.Drawing.Size(71, 39)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "virar"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
         Me.Button2.Location = New System.Drawing.Point(469, 150)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(100, 34)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Novo Cartão"
         Me.Button2.UseVisualStyleBackColor = True
