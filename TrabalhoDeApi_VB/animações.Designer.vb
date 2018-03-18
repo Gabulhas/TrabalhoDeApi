@@ -45,18 +45,20 @@ Partial Class animações
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(98, 130)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.Button1.Location = New System.Drawing.Point(94, 321)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(130, 37)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "exemplo 1"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(499, 130)
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.Button2.Location = New System.Drawing.Point(461, 321)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(130, 37)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "exemplo 2"
         Me.Button2.UseVisualStyleBackColor = True
@@ -64,7 +66,7 @@ Partial Class animações
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.rotunda_print
-        Me.PictureBox3.Location = New System.Drawing.Point(404, 175)
+        Me.PictureBox3.Location = New System.Drawing.Point(394, 110)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(255, 194)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -74,7 +76,7 @@ Partial Class animações
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.prependicularprint1
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 175)
+        Me.PictureBox2.Location = New System.Drawing.Point(39, 110)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(255, 194)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom

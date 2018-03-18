@@ -46,25 +46,29 @@ Partial Class registerForm
         '
         'registButton
         '
-        Me.registButton.Location = New System.Drawing.Point(104, 315)
+        Me.registButton.BackColor = System.Drawing.Color.White
+        Me.registButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.registButton.Location = New System.Drawing.Point(122, 298)
         Me.registButton.Name = "registButton"
-        Me.registButton.Size = New System.Drawing.Size(111, 40)
+        Me.registButton.Size = New System.Drawing.Size(97, 35)
         Me.registButton.TabIndex = 3
         Me.registButton.Text = "Registo"
-        Me.registButton.UseVisualStyleBackColor = True
+        Me.registButton.UseVisualStyleBackColor = False
         '
         'registUserBox
         '
-        Me.registUserBox.Location = New System.Drawing.Point(115, 147)
+        Me.registUserBox.Location = New System.Drawing.Point(160, 124)
+        Me.registUserBox.Multiline = True
         Me.registUserBox.Name = "registUserBox"
-        Me.registUserBox.Size = New System.Drawing.Size(100, 20)
+        Me.registUserBox.Size = New System.Drawing.Size(100, 26)
         Me.registUserBox.TabIndex = 4
         '
         'registPasswordBox
         '
-        Me.registPasswordBox.Location = New System.Drawing.Point(115, 219)
+        Me.registPasswordBox.Location = New System.Drawing.Point(160, 197)
+        Me.registPasswordBox.Multiline = True
         Me.registPasswordBox.Name = "registPasswordBox"
-        Me.registPasswordBox.Size = New System.Drawing.Size(100, 20)
+        Me.registPasswordBox.Size = New System.Drawing.Size(100, 26)
         Me.registPasswordBox.TabIndex = 5
         '
         'Panel1
@@ -82,6 +86,7 @@ Partial Class registerForm
         Me.PictureBox1.Location = New System.Drawing.Point(272, 3)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(75, 75)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -90,7 +95,7 @@ Partial Class registerForm
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(41, 214)
+        Me.Label4.Location = New System.Drawing.Point(44, 197)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(54, 24)
         Me.Label4.TabIndex = 11
@@ -101,7 +106,7 @@ Partial Class registerForm
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(42, 147)
+        Me.Label5.Location = New System.Drawing.Point(44, 126)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(53, 24)
         Me.Label5.TabIndex = 10

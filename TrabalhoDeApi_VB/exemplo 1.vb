@@ -16,7 +16,7 @@
         TextBox1.Text = "Se ambos os carros tiverem a intenção de virar para baixo, o carro A tem prioridade sob o carro B"
     End Sub
 
-    Private Sub TextBox1_TextChanged(sender As System.Object, e As System.EventArgs) Handles TextBox1.TextChanged
+    Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged
 
     End Sub
 

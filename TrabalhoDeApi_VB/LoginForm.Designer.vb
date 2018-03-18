@@ -40,7 +40,7 @@ Partial Class loginForm
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(44, 108)
+        Me.Label2.Location = New System.Drawing.Point(44, 126)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(53, 24)
         Me.Label2.TabIndex = 1
@@ -51,7 +51,7 @@ Partial Class loginForm
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(42, 178)
+        Me.Label3.Location = New System.Drawing.Point(44, 197)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(54, 24)
         Me.Label3.TabIndex = 2
@@ -60,7 +60,7 @@ Partial Class loginForm
         'loginPasswordBox
         '
         Me.loginPasswordBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.loginPasswordBox.Location = New System.Drawing.Point(160, 175)
+        Me.loginPasswordBox.Location = New System.Drawing.Point(160, 197)
         Me.loginPasswordBox.Name = "loginPasswordBox"
         Me.loginPasswordBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.loginPasswordBox.Size = New System.Drawing.Size(100, 26)
@@ -69,7 +69,7 @@ Partial Class loginForm
         'loginUserBox
         '
         Me.loginUserBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.loginUserBox.Location = New System.Drawing.Point(160, 105)
+        Me.loginUserBox.Location = New System.Drawing.Point(160, 124)
         Me.loginUserBox.Name = "loginUserBox"
         Me.loginUserBox.Size = New System.Drawing.Size(100, 26)
         Me.loginUserBox.TabIndex = 6
@@ -94,24 +94,26 @@ Partial Class loginForm
         '
         'Login
         '
-        Me.Login.BackColor = System.Drawing.Color.Transparent
-        Me.Login.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Login.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.Login.Location = New System.Drawing.Point(100, 310)
+        Me.Login.BackColor = System.Drawing.Color.White
+        Me.Login.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Login.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.Login.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Login.Location = New System.Drawing.Point(122, 298)
         Me.Login.Name = "Login"
-        Me.Login.Size = New System.Drawing.Size(75, 23)
+        Me.Login.Size = New System.Drawing.Size(80, 30)
         Me.Login.TabIndex = 10
         Me.Login.Text = "Entrar"
         Me.Login.UseVisualStyleBackColor = False
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(185, 404)
+        Me.Button1.BackColor = System.Drawing.Color.White
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Button1.Location = New System.Drawing.Point(241, 393)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 24)
+        Me.Button1.Size = New System.Drawing.Size(97, 35)
         Me.Button1.TabIndex = 11
         Me.Button1.Text = "Registar"
         Me.Button1.UseVisualStyleBackColor = False

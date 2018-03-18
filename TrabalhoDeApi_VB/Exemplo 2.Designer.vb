@@ -64,7 +64,7 @@ Partial Class Exemplo_2
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(376, 169)
+        Me.TextBox1.Location = New System.Drawing.Point(391, 169)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
@@ -73,9 +73,10 @@ Partial Class Exemplo_2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(469, 123)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.Button1.Location = New System.Drawing.Point(459, 123)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(124, 32)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = "Explicação"
         Me.Button1.UseVisualStyleBackColor = True

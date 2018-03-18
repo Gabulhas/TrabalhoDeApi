@@ -30,4 +30,12 @@ Public Class Form3
         DbCon.Close()
 
     End Sub
+
+    Private Sub RichTextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RichTextBox1.TextChanged
+
+    End Sub
+
+    Private Sub RichTextBox5_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RichTextBox5.TextChanged
+
+    End Sub
 End Class

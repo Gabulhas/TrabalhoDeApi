@@ -23,6 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.TimerMoveRight = New System.Windows.Forms.Timer(Me.components)
         Me.TimerMoveLeft = New System.Windows.Forms.Timer(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -146,10 +147,10 @@ Partial Class Form1
         'PictureBox20
         '
         Me.PictureBox20.BackColor = System.Drawing.Color.White
-        Me.PictureBox20.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.casa
+        Me.PictureBox20.Image = CType(resources.GetObject("PictureBox20.Image"), System.Drawing.Image)
         Me.PictureBox20.Location = New System.Drawing.Point(749, 135)
         Me.PictureBox20.Name = "PictureBox20"
-        Me.PictureBox20.Size = New System.Drawing.Size(69, 72)
+        Me.PictureBox20.Size = New System.Drawing.Size(74, 72)
         Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox20.TabIndex = 10
         Me.PictureBox20.TabStop = False
@@ -158,7 +159,7 @@ Partial Class Form1
         '
         Me.PictureBox19.BackColor = System.Drawing.Color.White
         Me.PictureBox19.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox19.Image = Global.TrabalhoDeApi_VB.My.Resources.Resources.Again11
+        Me.PictureBox19.Image = CType(resources.GetObject("PictureBox19.Image"), System.Drawing.Image)
         Me.PictureBox19.Location = New System.Drawing.Point(656, 135)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(74, 72)
