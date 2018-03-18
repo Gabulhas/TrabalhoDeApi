@@ -19,6 +19,14 @@ Represents a strongly typed in-memory cache of data.
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources._0001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources._00011">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Again1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -28,6 +36,10 @@ Represents a strongly typed in-memory cache of data.
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.botao_login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.Capturar">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -68,6 +80,10 @@ Represents a strongly typed in-memory cache of data.
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.carrov24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:TrabalhoDeApi_VB.My.Resources.Resources.casa">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
